@@ -1,0 +1,26 @@
+.sidenav {
+    background-color: #220320;
+    float: left;
+    width: 150px;
+    height:634px;
+    position: fixed;
+
+}
+
+.sidenav a {
+    color: #FFF;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: rgb(245, 247, 248);
+    height: 600px;
+}
+
+.clear{
+    clear: both;
+}

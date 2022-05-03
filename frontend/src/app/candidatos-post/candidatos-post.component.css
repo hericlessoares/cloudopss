@@ -1,0 +1,45 @@
+input{
+    display:block;
+    margin-bottom: 10px;
+    
+    
+}
+
+.full-width-table {
+    width: 100%;
+  }
+
+::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: rgb(59, 13, 63) !important;
+  } 
+
+  
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #7b2474  !important;
+    
+   }
+   
+::ng-deep .mat-form-field-label{
+    color:#7b2474 !important;
+   
+    
+   }
+.mat-hint{
+    color: red;
+}
+
+button{
+    width: 80px;
+    margin: 2px;
+}
+#card1{
+    background-color: rgb(172, 162, 162);
+    width: 200px;
+    margin: 0 auto;
+}
+
+#titulosec{
+    text-align: center;
+}

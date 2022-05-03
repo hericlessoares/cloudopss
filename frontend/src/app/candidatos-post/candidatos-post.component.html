@@ -1,0 +1,62 @@
+
+
+<h2 id="titulosec">CADASTRO</h2>
+<hr>
+
+<mat-card id="card1">
+
+  <form >
+
+    <mat-form-field >
+          <input matInput placeholder="Id"
+              [(ngModel)]="candidato.id" name="name">
+              
+    </mat-form-field>
+
+    <p>
+    <mat-form-field >
+        <input matInput placeholder="Nome"
+           [(ngModel)]="candidato.nome" name="name">
+    </mat-form-field>
+    </p>
+   
+    <p>
+      <mat-form-field>
+          <input matInput placeholder="email"
+             [(ngModel)]="candidato.email" name="name">
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+          <input matInput placeholder="telefone"
+             [(ngModel)]="candidato.telefone" name="name">
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+          <input matInput placeholder="endereco"
+             [(ngModel)]="candidato.endereco" name="name">
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+          <input matInput placeholder="profissao"
+             [(ngModel)]="candidato.profissao" name="name">
+      </mat-form-field>
+    </p>
+    <div class="example-button-row">
+      <button mat-raised-button (click)="cadastrar()">Cadastar</button>
+      <button mat-raised-button (click)="limparCadastro()">Limpar</button>
+    </div>
+</form>
+</mat-card>
+  
+
+
+    
+
+
+
